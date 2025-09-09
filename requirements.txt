@@ -4,3 +4,7 @@ scikit-learn
 uvicorn
 streamlit_lottie
 nltk
+
+from streamlit_lottie import st_lottie
+movies = pickle.load(open(r'movierecommenderproject/movies.pkl','rb'))
+similarity = pickle.load(open(r'movierecommenderproject/similarity.pkl','rb'))
